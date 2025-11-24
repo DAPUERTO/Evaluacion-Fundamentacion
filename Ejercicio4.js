@@ -48,3 +48,4 @@ const total = procesarImpuestos();
 
 console.log(`Impuesto total acumulado: $${total.toFixed(2)}`);
 alert(`Impuesto total acumulado: $${total.toFixed(2)}`);
+
