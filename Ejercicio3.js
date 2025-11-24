@@ -15,4 +15,17 @@
 //Salidas:
 //• Arreglo con los resultados 1×n hasta 10×n.
 
+// Importar la función desde el módulo
+import { generarTabla } from "./modules/moduloejer3.js";
 
+// Entrada solicitada
+const numero = Number(prompt("Ingrese un número para generar su tabla de multiplicar:"));
+
+// Llamar a la función flecha
+const tabla = generarTabla(numero);
+
+// Mostrar resultados
+console.log("Tabla de multiplicar:");
+console.log(tabla);
+
+alert("Tabla generada:\n" + tabla.join("\n"));
